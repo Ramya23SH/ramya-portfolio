@@ -1,0 +1,50 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Ramya Shetty</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Ramya Shetty</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>📧 Contact Me</h2>
+    <p>Have a question or want to connect? I'd love to hear from you!</p>
+    <form action="https://formsubmit.co/ramyshetty7760@gmail.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-details">
+      <p><i class="fas fa-envelope"></i> ramyshetty7760@gmail.com</p>
+      <p><i class="fas fa-phone"></i> 7760818172</p>
+    </div>
+
+    <div class="social-icons">
+      <a href="mailto:ramyshetty7760@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ramya Shetty. Let's connect and collaborate.</p>
+  </footer>
+</body>
+</html>
